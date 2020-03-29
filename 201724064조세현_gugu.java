@@ -7,7 +7,7 @@ public class project {
 		  int n;
 		  int i = 1;
 		  
-		  System.out.print("±¸±¸´ÜÀ» ¿Ü¿ìÀÚ!:");
+		  System.out.print("Â±Â¸Â±Â¸Â´ÃœÃ€Â» Â¿ÃœÂ¿Ã¬Ã€Ãš!:");
 		  
 		  Scanner scan = new Scanner(System.in);
 		  
