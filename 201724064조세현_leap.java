@@ -8,20 +8,20 @@ public class projectgogo2 {
 		  
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.print("¿¬µµ¸¦ ÀÔ·ÂÇØÁÖ¼Ò¼­: ");
+        System.out.print("ì—°ë„ë¥¼ ì…ë ¥í•´ì£¼ì†Œì„œ: ");
         int year=0;
 
         year=Integer.parseInt(in.readLine());
 
         if(year%100==0&&year%400==0){
-              System.out.println(year+"³âÀº À±³â");
+              System.out.println(year+"ë…„ì€ ìœ¤ë…„");
         }
 
         else if(year%4==0&&year%100!=0){
-              System.out.println(year+"³âÀº À±³â");
+              System.out.println(year+"ë…„ì€ ìœ¤ë…„");
         }
 
         else
-              System.out.println(year+"¿¬Àº À±³â¾Æ´Õ´Ï´Ù");
+              System.out.println(year+"ì—°ì€ ìœ¤ë…„ì•„ë‹™ë‹ˆë‹¤");
   }
 }
